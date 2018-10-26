@@ -1,7 +1,7 @@
 // ! BASIC CONFIG
 const express = require('express'),
   app = express(),
-  port = process.ENV.port || 4000,
+  port = process.env.PORT || 4000,
   bodyParser = require('body-parser'),
   favicon = require('serve-favicon'),
   path = require('path'),
